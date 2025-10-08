@@ -3,7 +3,7 @@ import star from '../assets/Star.png'
 import download from '../assets/download.png'
 
 const HomeSingleApp = ({ featureProduct}) => {
-  console.log(featureProduct);
+//   console.log(featureProduct);
   const { companyName, image, downloads, reviews, size, title, ratingAvg, id } =
     featureProduct;
   return (

@@ -11,7 +11,7 @@ const Home = () => {
 
     const {products, loading, error} = useProducts() ;
     if (loading) return <LoadingAPI></LoadingAPI>;
-    console.log(products, loading, error);
+    // console.log(products, loading, error);
     const featureProduct = products.slice(0, 8)
   return (
     

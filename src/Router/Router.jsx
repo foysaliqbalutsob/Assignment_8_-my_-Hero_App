@@ -7,6 +7,7 @@ import Root from "../Component/Root/Root";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import ErrorPage from "../Component/ErrorPage";
+import AppDetails from "../Pages/AppDetails";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
     path: "/header",
     element: <Header></Header>,
   },
+  {
+    path:"/app/1",
+    element:<AppDetails></AppDetails>
+  }
 ]);
 
 export default router;
