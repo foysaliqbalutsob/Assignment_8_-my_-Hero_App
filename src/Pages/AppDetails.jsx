@@ -136,8 +136,16 @@ const AppDetails = () => {
       </div>
 
       <div>
-        <h2>Description:</h2>
-        <h2>{description}</h2>
+                 <div className="flex  pt-15 pb-5 text-4xl font-bold">
+          <h1>Description</h1>
+        </div>
+
+         <div className="flex justify-center items-center  text-[rgba(98,115,130,1)]">
+          <h1><span>{description}</span>
+            Explore All Apps on the Market developed by us. We code for Millions
+            It is the world’s leading audio streaming platform, offering millions of songs, podcasts, and playlists. Users can discover new music through personalized recommendations, curated playlists, and collaborative playlists. Spotify supports offline listening, high-quality audio streaming, and cross-device playback. Artists can create profiles, share content, and interact with fans. Spotify also integrates with social media, smart devices, and AI-powered recommendations to enhance user experience. Whether for casual listening, creating workout playlists, or following podcasts, Spotify provides an immersive audio experience for users around the world, both free and premium subscribers alike
+          </h1>
+        </div>
       </div>
     </div>
   );

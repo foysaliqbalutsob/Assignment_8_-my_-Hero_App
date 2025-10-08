@@ -39,6 +39,23 @@ const Installation = () => {
   return (
     <div className="bg-cyan-50 ">
       <div className=" bg-cyan-50  py-20 max-w-7xl mx-auto ">
+
+         <div className="flex justify-center items-center pt-15 pb-5 text-4xl font-bold">
+          <h1>Our All Applications</h1>
+        </div>
+
+         <div className="flex justify-center items-center  text-[rgba(98,115,130,1)]">
+          <h1>
+            Explore All Apps on the Market developed by us. We code for Millions
+          </h1>
+        </div>
+
+
+
+
+
+
+
         <div className="">
           <div className="flex justify-between items-center mb-4">
             <h1 className="text-2xl font-bold">
@@ -60,10 +77,10 @@ const Installation = () => {
           <div className="">
             {sortedWishlist.map((product) => (
               <div key={product.id} className=" bg-base-100  shadow-sm mb-10">
-                <div className="">
-                  <div className=" flex justify-between items-center  ">
+                <div className=" ">
+                  <div className=" flex justify-between items-center   p-4 ">
                     <div className=" flex gap-6  ">
-                      <div className="border flex justify-center items-center">
+                      <div className=" flex justify-center items-center">
                         <img className="h-15  " src={product.image} alt="" />
                       </div>
                       <div className="">

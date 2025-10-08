@@ -6,12 +6,25 @@ import NoAppFound from "./NoAppFound";
 
 const Apps = () => {
   const [search, setSearch] = useState("");
+  
+const [isSearching, setIsSearching] = useState(false);
 
   const { products, loading, error } = useProducts();
   if (loading) return <LoadingAPI></LoadingAPI>;
   console.log(products, loading, error);
 
   console.log(search);
+
+  const handleSearchChange = (e) => {
+  setSearch(e.target.value);
+  setIsSearching(true);
+
+  
+  setTimeout(() => {
+    setIsSearching(false);
+  }, 500); 
+};
+
 
   const searchWord = search.trim().toLocaleLowerCase();
   console.log(searchWord);
@@ -71,15 +84,22 @@ const Apps = () => {
           />
         </label>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2  my-15 max-w-7xl lg:grid-cols-4 gap-5 mx-auto">
-        {searchApp.length > 0 ? (
-          searchApp.map((product) => (
-            <AllApplication key={product.id} product={product}></AllApplication>
-          ))
+   <div className="my-15 max-w-7xl mx-auto">
+        {isSearching ? (
+          <div className="flex justify-center items-center my-20">
+            <LoadingAPI />
+          </div>
+        ) : searchApp.length > 0 ? (
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+            {searchApp.map((product) => (
+              <AllApplication key={product.id} product={product} />
+            ))}
+          </div>
         ) : (
-          <NoAppFound className='flex flex-col justify-center items-center border col-span-4 ' search= {search} ></NoAppFound>
+          <NoAppFound search={search} />
         )}
       </div>
+    
     </div>
   );
 };
