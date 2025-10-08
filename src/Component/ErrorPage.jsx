@@ -5,13 +5,15 @@ import error404 from "../assets/error-404.png"
 const ErrorPage = () => {
     
   const error = useRouteError();
-  return <div>
-    <div>
+  return <div className=' flex justify-center item'>
+   <div>
+     <div>
       <img src= {error404} alt="" />
     </div>
     <div>
       <h1>{error.message}</h1>
     </div>
+   </div>
 
 
 

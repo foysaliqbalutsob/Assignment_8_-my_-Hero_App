@@ -3,6 +3,10 @@ import like from "../assets/like_img.png";
 import download from "../assets/download.png";
 import star from "../assets/Star.png";
 
+
+
+
+
 const Installation = () => {
   const [wishlist, setWishlist] = useState([]);
   const [sortedWishlist, setSortedWishlist] = useState([]);
@@ -100,6 +104,27 @@ const Installation = () => {
         ))}
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
    </div>
   );
 };

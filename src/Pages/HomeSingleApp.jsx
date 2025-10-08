@@ -4,7 +4,7 @@ import download from '../assets/download.png'
 
 const HomeSingleApp = ({ featureProduct}) => {
 //   console.log(featureProduct);
-  const { companyName, image, downloads, reviews, size, title, ratingAvg, id } =
+  const { image, downloads,  title, ratingAvg, } =
     featureProduct;
   return (
     <div className=" w-80">
