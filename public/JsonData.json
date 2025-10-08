@@ -1,0 +1,233 @@
+[
+    {
+        "image": "https://i.ibb.co/LP4MMGL/calm.png",
+        "title": "Calm",
+        "companyName": "Calm Inc.",
+        "id": 1,
+        "description": "Calm is one of the most popular apps for mindfulness and mental well-being, designed to help users manage stress, anxiety, and improve sleep. Through guided meditations, relaxing music, nature sounds, and bedtime stories, Calm makes it easier to find moments of peace in your daily life. The app offers programs for beginners as well as experienced meditators, focusing on breathing exercises, gratitude, and relaxation techniques. Personalized progress tracking and reminders encourage consistency, while soothing visuals and sounds enhance the meditation experience. Whether you’re struggling with focus or sleeplessness, Calm helps you restore balance and inner peace.",
+        "size": 120,
+        "reviews": 154000,
+        "ratingAvg": 4.7,
+        "downloads": 50000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3400
+            },
+            {
+                "name": "2 star",
+                "count": 2200
+            },
+            {
+                "name": "3 star",
+                "count": 5800
+            },
+            {
+                "name": "4 star",
+                "count": 29000
+            },
+            {
+                "name": "5 star",
+                "count": 113600
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/vh0rXpZ/spotify.png",
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "id": 2,
+        "description": "Spotify is a world-leading audio streaming service offering millions of songs, podcasts, and playlists for free and premium users. It allows you to explore music from every genre, artist, and mood imaginable, with curated recommendations powered by smart algorithms. Spotify’s personalized playlists like ‘Discover Weekly’ and ‘Daily Mix’ adapt to your listening habits, ensuring that your feed always feels fresh and relevant. Users can follow artists, share playlists, and even download songs for offline playback. With its cross-device synchronization, minimalistic design, and social integration, Spotify transforms how you discover and enjoy music anytime, anywhere.",
+        "size": 185,
+        "reviews": 7200000,
+        "ratingAvg": 4.5,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100000
+            },
+            {
+                "name": "2 star",
+                "count": 180000
+            },
+            {
+                "name": "3 star",
+                "count": 340000
+            },
+            {
+                "name": "4 star",
+                "count": 900000
+            },
+            {
+                "name": "5 star",
+                "count": 5680000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/zG5qV7W/notion.png",
+        "title": "Notion",
+        "companyName": "Notion Labs, Inc.",
+        "id": 3,
+        "description": "Notion is an all-in-one workspace app that combines note-taking, task management, and database organization in a flexible and elegant interface. It allows users to create wikis, manage projects, track habits, and collaborate in real-time. With drag-and-drop customization and powerful templates, Notion adapts to any workflow, whether for personal use or team collaboration. Its markdown-style editor, page linking, and nesting structure make it easy to organize information visually. Integrated across devices, Notion keeps everything synchronized and accessible. It’s widely used by developers, students, and professionals for planning, documentation, and creative ideation — all in one minimal tool.",
+        "size": 145,
+        "reviews": 410000,
+        "ratingAvg": 4.8,
+        "downloads": 15000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2000
+            },
+            {
+                "name": "2 star",
+                "count": 1500
+            },
+            {
+                "name": "3 star",
+                "count": 6000
+            },
+            {
+                "name": "4 star",
+                "count": 32000
+            },
+            {
+                "name": "5 star",
+                "count": 370500
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/v39rx1X/duolingo.png",
+        "title": "Duolingo",
+        "companyName": "Duolingo Inc.",
+        "id": 4,
+        "description": "Duolingo revolutionizes language learning through gamified lessons that make mastering new languages fun, effective, and accessible to all. The app supports over 30 languages including Spanish, French, German, and Japanese. Users earn XP points, maintain streaks, and compete on leaderboards, keeping the experience engaging. Each session focuses on speaking, listening, reading, and writing skills, powered by adaptive AI that personalizes lessons to your progress. Duolingo also offers courses for non-English speakers and real-world conversation practice. Whether for travel, study, or career growth, it’s the easiest way to start speaking confidently in a new language at your own pace.",
+        "size": 110,
+        "reviews": 5300000,
+        "ratingAvg": 4.6,
+        "downloads": 500000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 42000
+            },
+            {
+                "name": "2 star",
+                "count": 30000
+            },
+            {
+                "name": "3 star",
+                "count": 80000
+            },
+            {
+                "name": "4 star",
+                "count": 600000
+            },
+            {
+                "name": "5 star",
+                "count": 4570000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/YX6x9s8/figma.png",
+        "title": "Figma",
+        "companyName": "Figma Inc.",
+        "id": 5,
+        "description": "Figma is a powerful, collaborative design platform that redefines how teams create digital products. Built for UI/UX designers, it offers real-time editing, prototyping, and feedback tools within a single workspace. Designers and developers can work simultaneously, ensuring fast iteration and visual consistency. Figma’s component system and auto-layout features streamline interface design, while plugins extend its capabilities for animation, accessibility, and data visualization. It runs entirely in the browser, removing installation barriers. With its clean interface, version history, and seamless team collaboration, Figma is the go-to tool for creating modern, scalable design systems used by top companies worldwide.",
+        "size": 180,
+        "reviews": 210000,
+        "ratingAvg": 4.7,
+        "downloads": 12000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500
+            },
+            {
+                "name": "2 star",
+                "count": 900
+            },
+            {
+                "name": "3 star",
+                "count": 4000
+            },
+            {
+                "name": "4 star",
+                "count": 21000
+            },
+            {
+                "name": "5 star",
+                "count": 182600
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/tbqGY7b/instagram.png",
+        "title": "Instagram",
+        "companyName": "Meta Platforms Inc.",
+        "id": 6,
+        "description": "Instagram is one of the world’s leading social media platforms, designed for sharing moments through photos, videos, and stories. It empowers users to connect, create, and inspire through visual storytelling. With built-in filters, editing tools, and features like Reels, Direct Messages, and Live streaming, Instagram fosters creativity and engagement for personal and business use alike. Influencers and brands use it to connect with global audiences, while users explore trends, entertainment, and lifestyle content daily. Constantly evolving with AI-driven recommendations and creative tools, Instagram is more than an app—it’s a hub of digital culture and global interaction.",
+        "size": 220,
+        "reviews": 100000000,
+        "ratingAvg": 4.4,
+        "downloads": 1000000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1500000
+            },
+            {
+                "name": "2 star",
+                "count": 2000000
+            },
+            {
+                "name": "3 star",
+                "count": 4000000
+            },
+            {
+                "name": "4 star",
+                "count": 18000000
+            },
+            {
+                "name": "5 star",
+                "count": 74000000
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co/bLrw9JZ/canva.png",
+        "title": "Canva",
+        "companyName": "Canva Pty Ltd",
+        "id": 7,
+        "description": "Canva simplifies design for everyone—whether you’re a student, marketer, or entrepreneur. With its drag-and-drop interface, Canva allows you to create professional-quality graphics, social media posts, videos, and presentations in minutes. It offers thousands of templates, fonts, and stock images, making content creation effortless. The app includes AI-powered tools like Magic Resize and Text-to-Image to boost creativity. Collaborative editing enables teams to work together on brand materials in real-time. From personal invitations to marketing campaigns, Canva helps you turn ideas into beautiful designs without needing advanced graphic design skills.",
+        "size": 150,
+        "reviews": 1200000,
+        "ratingAvg": 4.8,
+        "downloads": 200000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30000
+            },
+            {
+                "name": "2 star",
+                "count": 25000
+            },
+            {
+                "name": "3 star",
+                "count": 70000
+            },
+            {
+                "name": "4 star",
+                "count": 300000
+            },
+            {
+                "name": "5 star",
+                "count": 840000
+            }
+        ]
+    }
+]
