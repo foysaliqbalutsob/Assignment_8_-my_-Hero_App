@@ -3,9 +3,16 @@ import { Link } from "react-router";
 import playStore from "../assets/Play_store.png";
 import appStore from "../assets/App_store.png";
 import hero from "../assets/hero.png";
+import useProducts from "../Hook/useApp";
 
 const Home = () => {
+
+    const {products, loading, error} = useProducts() ;
+    if (loading) return <p>Loading products...</p>;
+    console.log(products, loading, error)
   return (
+    
+
     <div className=" bg-cyan-50 ">
       <div className=" py-10">
         <div className=" flex justify-center items-center">
