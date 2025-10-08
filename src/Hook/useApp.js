@@ -8,7 +8,7 @@ const useProducts =()=>{
 
     useEffect(()=>{
         setLoading(true)
-        fetch("JsonData.json").then(res =>res.json())
+        fetch("/JsonData.json").then(res =>res.json())
         .then(data=>setProducts(data))
         .catch(err=>{
             console.error("Error fetching data:", err);

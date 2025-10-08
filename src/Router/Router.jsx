@@ -27,16 +27,17 @@ const router = createBrowserRouter([
         path: "/app",
         element: <Apps></Apps>,
       },
+      {
+    path:"/app/:id",
+    element:<AppDetails></AppDetails>
+  }
     ],
   },
   {
     path: "/header",
     element: <Header></Header>,
   },
-  {
-    path:"/app/1",
-    element:<AppDetails></AppDetails>
-  }
+  
 ]);
 
 export default router;
