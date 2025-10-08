@@ -16,6 +16,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+import Swal from "sweetalert2";
 
 const AppDetails = () => {
   const [install, setInstall] = useState(false);
@@ -49,14 +50,14 @@ const AppDetails = () => {
     let updatedList = [];
     if (existingList) {
       const isDuplicate = existingList.some((p) => p.id === product.id);
-      if (isDuplicate) return alert("sorry");
+      if (isDuplicate) return Swal.fire("Sorry");
       updatedList = [...existingList, product];
     } else {
       updatedList.push(product);
     }
     localStorage.setItem("wishlist", JSON.stringify(updatedList));
     console.log(updatedList);
-    alert(`Install ${title}`);
+    Swal.fire("App is installed!");
     setInstall(true);
   };
 
