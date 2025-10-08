@@ -11,7 +11,8 @@ const Home = () => {
 
     const {products, loading, error} = useProducts() ;
     if (loading) return <LoadingAPI></LoadingAPI>;
-    console.log(products, loading, error)
+    console.log(products, loading, error);
+    const featureProduct = products.slice(0, 8)
   return (
     
 
@@ -81,13 +82,23 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="flex justify-center items-center mt-15 mb-5 text-4xl font-bold"><h1>Trending Apps</h1></div>
+      
+      <div className="flex justify-center items-center text-[rgba(98,115,130,1)]"><h1>Explore All Trending Apps on the Market developed by us</h1></div>
+      
 
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5  ">
+
+      <div className="grid grid-cols-1 md:grid-cols-2  my-15 max-w-7xl lg:grid-cols-4 gap-5 mx-auto ">
         {
-            products.map(product =><HomeSingleApp key={product.id} product={product} ></HomeSingleApp>)
+            featureProduct.map(featureProduct =><HomeSingleApp key={featureProduct.id} featureProduct={featureProduct} ></HomeSingleApp>)
         }
+
+        
       </div>
+      <div className="flex justify-center items-center pb-15">
+            <Link className="btn btn-primary px-8 py-6" to='/app'>Show  All</Link>
+        </div>
 
 
 
