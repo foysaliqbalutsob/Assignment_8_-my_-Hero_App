@@ -1,11 +1,12 @@
-import React from "react";
-import { useParams } from "react-router";
+import React, { useState } from "react";
+import { Link, useParams } from "react-router";
 import useProducts from "../Hook/useApp";
 import LoadingAPI from "../Component/LoadingAPI/LoadingAPI";
 import like from "../assets/like_img.png";
 import download from '../assets/download.png'
 import star from '../assets/Star.png'
 const AppDetails = () => {
+    const [install ,setInstall] = useState(false)
   const { id } = useParams();
   console.log(id);
 
@@ -27,6 +28,32 @@ const AppDetails = () => {
     title,
     ratingAvg,
   } = product;
+
+
+  const handleAddToWishlist = () => {
+    
+   const existingList = JSON.parse(localStorage.getItem('wishlist'))
+   console.log(existingList);
+   let updatedList = [];
+   if(existingList){
+    const isDuplicate =existingList.some(p => p.id === product.id)
+    if(isDuplicate) return alert('sorry')
+    updatedList = [...existingList, product]
+   }
+   else{
+    updatedList.push(product)
+   }
+   localStorage.setItem('wishlist',JSON.stringify(updatedList))
+   console.log(updatedList)
+   alert(`Install ${title}`);
+   setInstall(true)
+  };
+
+
+
+
+
+
 
   return (
     <div className="bg-base-200 min-h-screen flex justify-center  py-10">
@@ -71,8 +98,8 @@ const AppDetails = () => {
             </div>
           </div>
 
-          <button className="mt-8 bg-[rgba(0,211,144,1)] hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition">
-            Install Now ({size} MB)
+          <button onClick={handleAddToWishlist} disabled={install} className="mt-8 bg-[rgba(0,211,144,1)] hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+            {install? "Installed" :` Install Now ( ${size} MB)`}
           </button>
         </div>
       </div>

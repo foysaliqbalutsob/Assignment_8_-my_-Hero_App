@@ -77,7 +77,7 @@ const Apps = () => {
             <AllApplication key={product.id} product={product}></AllApplication>
           ))
         ) : (
-          <NoAppFound className='flex flex-col justify-center items-center border ' search= {search} ></NoAppFound>
+          <NoAppFound className='flex flex-col justify-center items-center border col-span-4 ' search= {search} ></NoAppFound>
         )}
       </div>
     </div>
