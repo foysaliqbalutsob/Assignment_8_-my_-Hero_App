@@ -4,11 +4,13 @@ import playStore from "../assets/Play_store.png";
 import appStore from "../assets/App_store.png";
 import hero from "../assets/hero.png";
 import useProducts from "../Hook/useApp";
+import HomeSingleApp from "./HomeSingleApp";
+import LoadingAPI from "../Component/LoadingAPI/LoadingAPI";
 
 const Home = () => {
 
     const {products, loading, error} = useProducts() ;
-    if (loading) return <p>Loading products...</p>;
+    if (loading) return <LoadingAPI></LoadingAPI>;
     console.log(products, loading, error)
   return (
     
@@ -78,7 +80,26 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5  ">
+        {
+            products.map(product =><HomeSingleApp key={product.id} product={product} ></HomeSingleApp>)
+        }
+      </div>
+
+
+
+
+
+
+
+
+
+
     </div>
+    
   );
 };
 

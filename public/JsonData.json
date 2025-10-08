@@ -1,662 +1,362 @@
 [
-    {
-        "image": "https://i.ibb.co/vh0rXpZ/spotify.png",
-        "title": "Spotify",
-        "companyName": "Spotify AB",
-        "id": 1,
-        "description": "Spotify is the world’s leading audio streaming platform, offering millions of songs, podcasts, and playlists for free and premium users. It combines personalized recommendations, curated playlists, and discovery tools to help users find music and podcasts that match their moods and interests. With cross-device synchronization, offline listening, collaborative playlists, and social sharing features, Spotify transforms how people enjoy audio entertainment. The app leverages smart algorithms to adapt to user preferences over time. Spotify is designed for music lovers, podcasters, and creators alike, enabling a global community to share and explore audio content effortlessly.",
-        "size": 185,
-        "reviews": 7200000,
-        "ratingAvg": 4.5,
-        "downloads": 1000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 100000
-            },
-            {
-                "name": "2 star",
-                "count": 180000
-            },
-            {
-                "name": "3 star",
-                "count": 340000
-            },
-            {
-                "name": "4 star",
-                "count": 900000
-            },
-            {
-                "name": "5 star",
-                "count": 5680000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/bLrw9JZ/canva.png",
-        "title": "Canva",
-        "companyName": "Canva Pty Ltd",
-        "id": 2,
-        "description": "Canva is an intuitive graphic design platform that empowers users to create professional-quality visuals quickly and easily. It offers templates for presentations, social media posts, marketing materials, videos, and more. Users can access millions of images, fonts, icons, and AI-powered tools like background remover and text-to-image generation. Canva supports collaboration in real-time, making it ideal for teams, students, and entrepreneurs. Its drag-and-drop interface ensures beginners can design effortlessly, while advanced features allow professionals to create polished graphics. With cross-device access, Canva makes creative work accessible anytime, anywhere, for both personal and professional projects.",
-        "size": 150,
-        "reviews": 1200000,
-        "ratingAvg": 4.8,
-        "downloads": 200000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 30000
-            },
-            {
-                "name": "2 star",
-                "count": 25000
-            },
-            {
-                "name": "3 star",
-                "count": 70000
-            },
-            {
-                "name": "4 star",
-                "count": 300000
-            },
-            {
-                "name": "5 star",
-                "count": 840000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/zG5qV7W/notion.png",
-        "title": "Notion",
-        "companyName": "Notion Labs, Inc.",
-        "id": 3,
-        "description": "Notion is an all-in-one workspace that combines note-taking, project management, databases, and collaboration tools in a flexible, intuitive interface. Users can create wikis, to-do lists, kanban boards, and habit trackers, all fully customizable. It allows teams and individuals to organize work, track progress, and centralize knowledge. Notion’s real-time collaboration, templates, and cross-device synchronization make it ideal for personal productivity, creative projects, and professional environments alike. It supports markdown, page linking, and nested hierarchies to structure content effectively. With powerful search and integration capabilities, Notion transforms the way people organize information and collaborate digitally.",
-        "size": 145,
-        "reviews": 410000,
-        "ratingAvg": 4.8,
-        "downloads": 15000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 2000
-            },
-            {
-                "name": "2 star",
-                "count": 1500
-            },
-            {
-                "name": "3 star",
-                "count": 6000
-            },
-            {
-                "name": "4 star",
-                "count": 32000
-            },
-            {
-                "name": "5 star",
-                "count": 370500
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/vY0dcyJ/tiktok.png",
-        "title": "TikTok",
-        "companyName": "ByteDance Ltd.",
-        "id": 4,
-        "description": "TikTok allows users to create, share, and discover short-form videos enriched with music, filters, and special effects. Its advanced recommendation engine personalizes feeds, showing content based on user interests and engagement patterns. The platform fosters creativity, entertainment, and learning by connecting global communities. Influencers, brands, and casual creators can engage audiences through trends, challenges, and interactive features. TikTok’s intuitive editing tools, AI effects, and social sharing capabilities make it easy for anyone to produce compelling content. From viral videos to educational clips, TikTok provides a dynamic space for self-expression, connection, and inspiration worldwide.",
-        "size": 240,
-        "reviews": 85000000,
-        "ratingAvg": 4.4,
-        "downloads": 1000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 2000000
-            },
-            {
-                "name": "2 star",
-                "count": 3000000
-            },
-            {
-                "name": "3 star",
-                "count": 7000000
-            },
-            {
-                "name": "4 star",
-                "count": 19000000
-            },
-            {
-                "name": "5 star",
-                "count": 54000000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/tbqGY7b/instagram.png",
-        "title": "Instagram",
-        "companyName": "Meta Platforms Inc.",
-        "id": 5,
-        "description": "Instagram is a photo and video sharing social network that allows users to connect, communicate, and share creative content globally. It provides a variety of features, including Stories, Reels, Direct Messaging, and Live streaming. With powerful filters, AR effects, and editing tools, users can enhance their content to engage audiences effectively. Businesses and influencers leverage Instagram for brand promotion, community building, and marketing campaigns. Its AI-driven recommendations, interactive features, and social integration help users discover new trends, entertainment, and lifestyle content. Instagram fosters creative expression, personal storytelling, and global digital interactions.",
-        "size": 220,
-        "reviews": 100000000,
-        "ratingAvg": 4.4,
-        "downloads": 1000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 1500000
-            },
-            {
-                "name": "2 star",
-                "count": 2000000
-            },
-            {
-                "name": "3 star",
-                "count": 4000000
-            },
-            {
-                "name": "4 star",
-                "count": 18000000
-            },
-            {
-                "name": "5 star",
-                "count": 74000000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/LP4MMGL/calm.png",
-        "title": "Calm",
-        "companyName": "Calm Inc.",
-        "id": 6,
-        "description": "Calm is a leading meditation and mental wellness app designed to reduce stress, improve focus, and enhance sleep. It offers guided meditations, sleep stories, breathing exercises, relaxing music, and nature sounds to create a peaceful experience. Users can track their progress, set reminders, and access programs tailored to beginners or experienced meditators. Calm’s visually calming interface and high-quality audio content provide an immersive mindfulness experience. Suitable for personal development, relaxation, and mental clarity, Calm empowers users to manage their emotional health, improve productivity, and achieve a more balanced lifestyle in a fast-paced world.",
-        "size": 120,
-        "reviews": 154000,
-        "ratingAvg": 4.7,
-        "downloads": 50000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 3400
-            },
-            {
-                "name": "2 star",
-                "count": 2200
-            },
-            {
-                "name": "3 star",
-                "count": 5800
-            },
-            {
-                "name": "4 star",
-                "count": 29000
-            },
-            {
-                "name": "5 star",
-                "count": 113600
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/YX6x9s8/figma.png",
-        "title": "Figma",
-        "companyName": "Figma Inc.",
-        "id": 7,
-        "description": "Figma is a collaborative interface design tool used for UI/UX design, prototyping, and real-time team collaboration. It runs in the browser and supports cross-platform editing, making design accessible without software installation. Designers can create components, design systems, wireframes, and interactive prototypes efficiently. Figma allows simultaneous collaboration, live commenting, and version control, enabling teams to iterate faster. Its plugin ecosystem extends functionality to animation, accessibility, and design analytics. Ideal for professionals, agencies, and educational purposes, Figma empowers creative teams to produce high-quality digital products with speed and consistency across projects.",
-        "size": 180,
-        "reviews": 210000,
-        "ratingAvg": 4.7,
-        "downloads": 12000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 1500
-            },
-            {
-                "name": "2 star",
-                "count": 900
-            },
-            {
-                "name": "3 star",
-                "count": 4000
-            },
-            {
-                "name": "4 star",
-                "count": 21000
-            },
-            {
-                "name": "5 star",
-                "count": 182600
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/B2R5d0F/github.png",
-        "title": "GitHub",
-        "companyName": "GitHub, Inc.",
-        "id": 8,
-        "description": "GitHub is a web-based platform for version control and collaborative software development using Git. It allows developers to host, review, and manage code repositories while integrating CI/CD pipelines and project tracking. GitHub supports collaboration across teams and open-source communities, enabling issue tracking, pull requests, code reviews, and community contributions. Users can explore millions of public repositories, follow developers, and showcase projects. With security features, integrations, and automation tools, GitHub streamlines workflow, encourages transparency, and fosters innovation, making it an essential platform for both individual developers and enterprise-scale software projects.",
-        "size": 130,
-        "reviews": 300000,
-        "ratingAvg": 4.9,
-        "downloads": 10000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 1000
-            },
-            {
-                "name": "2 star",
-                "count": 700
-            },
-            {
-                "name": "3 star",
-                "count": 2000
-            },
-            {
-                "name": "4 star",
-                "count": 13000
-            },
-            {
-                "name": "5 star",
-                "count": 283300
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/5K0bX9c/netflix.png",
-        "title": "Netflix",
-        "companyName": "Netflix, Inc.",
-        "id": 9,
-        "description": "Netflix is a leading subscription-based streaming service that offers a vast library of movies, TV shows, documentaries, and original content. It provides personalized recommendations using advanced algorithms that analyze viewing habits. Users can stream on multiple devices, download content for offline viewing, and explore titles in multiple languages and genres. Netflix continuously invests in exclusive shows and movies, creating a diverse entertainment experience for global audiences. Its user-friendly interface, high-quality streaming, and adaptive playback options ensure seamless viewing. Netflix empowers users to enjoy entertainment anytime, anywhere, on any device.",
-        "size": 250,
-        "reviews": 45000000,
-        "ratingAvg": 4.6,
-        "downloads": 1000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 500000
-            },
-            {
-                "name": "2 star",
-                "count": 700000
-            },
-            {
-                "name": "3 star",
-                "count": 2000000
-            },
-            {
-                "name": "4 star",
-                "count": 13000000
-            },
-            {
-                "name": "5 star",
-                "count": 30000000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/7Rg9k9H/whatsapp.png",
-        "title": "WhatsApp",
-        "companyName": "Meta Platforms Inc.",
-        "id": 10,
-        "description": "WhatsApp is a globally used messaging app that allows users to send text messages, voice notes, images, videos, and documents securely. It supports voice and video calls, group chats, and end-to-end encryption to ensure privacy. With cross-platform availability, WhatsApp keeps users connected worldwide effortlessly. Features like WhatsApp Web, status updates, and location sharing enhance communication convenience. Businesses leverage WhatsApp Business for customer service, automated messaging, and catalog management. The app’s intuitive interface, low data usage, and reliable delivery make it a leading choice for personal and professional communication across multiple countries.",
-        "size": 120,
-        "reviews": 90000000,
-        "ratingAvg": 4.5,
-        "downloads": 5000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 2000000
-            },
-            {
-                "name": "2 star",
-                "count": 3000000
-            },
-            {
-                "name": "3 star",
-                "count": 8000000
-            },
-            {
-                "name": "4 star",
-                "count": 25000000
-            },
-            {
-                "name": "5 star",
-                "count": 54000000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/x7d4DLb/zoom.png",
-        "title": "Zoom",
-        "companyName": "Zoom Video Communications, Inc.",
-        "id": 11,
-        "description": "Zoom is a cloud-based video conferencing platform that enables virtual meetings, webinars, and collaborative communication across the globe. It provides HD video, audio, and screen sharing for individuals and businesses. Zoom supports chat, meeting recording, breakout rooms, and integration with calendar and productivity tools. Its scalability and reliability have made it essential for remote work, online education, and virtual events. Security features, such as end-to-end encryption, ensure privacy for users. Zoom’s intuitive interface and cross-device support make it easy to connect with colleagues, friends, and family, enhancing productivity and engagement in a digital-first world.",
-        "size": 200,
-        "reviews": 6000000,
-        "ratingAvg": 4.4,
-        "downloads": 500000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 80000
-            },
-            {
-                "name": "2 star",
-                "count": 50000
-            },
-            {
-                "name": "3 star",
-                "count": 100000
-            },
-            {
-                "name": "4 star",
-                "count": 700000
-            },
-            {
-                "name": "5 star",
-                "count": 4550000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/8rgHqvP/slack.png",
-        "title": "Slack",
-        "companyName": "Slack Technologies",
-        "id": 12,
-        "description": "Slack is a team collaboration and messaging platform designed to streamline communication and productivity within organizations. It offers channels for topic-based discussions, direct messaging, file sharing, and integration with third-party apps like Google Drive, Zoom, and Trello. Slack supports video and voice calls, searchable message history, and workflow automation through bots and custom integrations. Its real-time notifications and desktop/mobile access allow teams to stay connected across locations. Slack fosters transparency, efficiency, and collaboration for businesses of all sizes, enabling teams to coordinate projects, share knowledge, and manage tasks seamlessly.",
-        "size": 180,
-        "reviews": 850000,
-        "ratingAvg": 4.6,
-        "downloads": 200000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 8000
-            },
-            {
-                "name": "2 star",
-                "count": 6000
-            },
-            {
-                "name": "3 star",
-                "count": 25000
-            },
-            {
-                "name": "4 star",
-                "count": 150000
-            },
-            {
-                "name": "5 star",
-                "count": 675000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/DgYsbXx/telegram.png",
-        "title": "Telegram",
-        "companyName": "Telegram FZ-LLC",
-        "id": 13,
-        "description": "Telegram is a cloud-based messaging app focused on speed, security, and privacy. It enables users to send messages, media, and files of any type with end-to-end encryption in secret chats. Telegram supports large group chats, channels, voice chats, bots, and file sharing up to 2GB. Its multi-device synchronization and cloud storage make content accessible anywhere. Users can customize themes, use animated stickers, and enjoy bot-based utilities. Telegram’s open API encourages developers to create bots and tools that expand functionality. It’s widely used for both personal and community communication, offering a fast, reliable, and secure messaging experience.",
-        "size": 150,
-        "reviews": 35000000,
-        "ratingAvg": 4.7,
-        "downloads": 500000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 250000
-            },
-            {
-                "name": "2 star",
-                "count": 180000
-            },
-            {
-                "name": "3 star",
-                "count": 400000
-            },
-            {
-                "name": "4 star",
-                "count": 3000000
-            },
-            {
-                "name": "5 star",
-                "count": 31000000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/KsTfD3L/youtube.png",
-        "title": "YouTube",
-        "companyName": "Google LLC",
-        "id": 14,
-        "description": "YouTube is the world’s largest video-sharing platform, offering billions of videos across categories such as entertainment, education, music, and news. Users can watch, like, share, and comment on content, as well as create and monetize their own channels. YouTube’s recommendation algorithm provides personalized video feeds based on viewing history. Features include live streaming, YouTube Shorts, playlists, and subtitles. The platform enables creators to reach global audiences, engage communities, and generate revenue. With mobile and desktop accessibility, offline viewing, and multi-language support, YouTube continues to connect people and knowledge, making video content universally accessible.",
-        "size": 250,
-        "reviews": 120000000,
-        "ratingAvg": 4.5,
-        "downloads": 5000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 2000000
-            },
-            {
-                "name": "2 star",
-                "count": 3000000
-            },
-            {
-                "name": "3 star",
-                "count": 7000000
-            },
-            {
-                "name": "4 star",
-                "count": 22000000
-            },
-            {
-                "name": "5 star",
-                "count": 90000000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/kSFr3yw/chrome.png",
-        "title": "Google Chrome",
-        "companyName": "Google LLC",
-        "id": 15,
-        "description": "Google Chrome is a fast, secure, and widely-used web browser available across devices. It provides features such as tabbed browsing, synchronized bookmarks, password management, extensions, and incognito mode for private browsing. Chrome uses advanced security technologies to protect against malware and phishing attacks. Its minimalist interface and powerful performance optimize browsing experience, while Google integration allows seamless access to Gmail, Drive, and other services. Developers can leverage Chrome DevTools for debugging and performance optimization. Chrome’s cross-device synchronization ensures that users’ browsing history, settings, and bookmarks remain consistent across platforms, improving productivity and convenience.",
-        "size": 120,
-        "reviews": 50000000,
-        "ratingAvg": 4.6,
-        "downloads": 5000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 500000
-            },
-            {
-                "name": "2 star",
-                "count": 400000
-            },
-            {
-                "name": "3 star",
-                "count": 900000
-            },
-            {
-                "name": "4 star",
-                "count": 8000000
-            },
-            {
-                "name": "5 star",
-                "count": 41500000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/Zf1sLZq/gmail.png",
-        "title": "Gmail",
-        "companyName": "Google LLC",
-        "id": 16,
-        "description": "Gmail is a free email service by Google that provides users with secure, fast, and organized email communication. It includes features like powerful spam filtering, categorization of emails into Primary, Social, and Promotions tabs, and easy search for old messages. Users can compose, schedule, and label emails, as well as integrate with Google Workspace apps like Drive, Calendar, and Meet. Gmail supports multiple accounts, offline access, and mobile synchronization across devices. Its intuitive interface, reliable performance, and robust security make it one of the world’s most widely used email platforms for personal and professional communication.",
-        "size": 120,
-        "reviews": 35000000,
-        "ratingAvg": 4.6,
-        "downloads": 5000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 500000
-            },
-            {
-                "name": "2 star",
-                "count": 350000
-            },
-            {
-                "name": "3 star",
-                "count": 800000
-            },
-            {
-                "name": "4 star",
-                "count": 6000000
-            },
-            {
-                "name": "5 star",
-                "count": 28000000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/WK7d9Qb/adobe-photoshop.png",
-        "title": "Adobe Photoshop",
-        "companyName": "Adobe Inc.",
-        "id": 17,
-        "description": "Adobe Photoshop is the industry-leading photo editing and graphic design software, used by photographers, designers, and digital artists worldwide. It provides advanced tools for image retouching, compositing, 3D design, and digital painting. Photoshop supports layers, masks, filters, and precise color correction, enabling professional-grade creative work. Integration with Adobe Creative Cloud allows seamless collaboration and access to assets across devices. With AI-powered features such as automatic subject selection, neural filters, and sky replacement, Photoshop simplifies complex tasks. Its versatile capabilities make it the go-to solution for creating, enhancing, and transforming digital imagery in creative industries.",
-        "size": 1050,
-        "reviews": 900000,
-        "ratingAvg": 4.7,
-        "downloads": 10000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 5000
-            },
-            {
-                "name": "2 star",
-                "count": 4000
-            },
-            {
-                "name": "3 star",
-                "count": 15000
-            },
-            {
-                "name": "4 star",
-                "count": 120000
-            },
-            {
-                "name": "5 star",
-                "count": 765000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/VJ4VJ1r/pinterest.png",
-        "title": "Pinterest",
-        "companyName": "Pinterest, Inc.",
-        "id": 18,
-        "description": "Pinterest is a visual discovery and bookmarking platform that allows users to find, save, and share ideas across categories such as fashion, home decor, recipes, travel, and more. Users can create boards, pin images, and follow topics or other users for inspiration. Pinterest uses smart algorithms to recommend personalized content based on user interests and activity. It serves as a tool for creativity, project planning, and idea exploration. Businesses leverage Pinterest for marketing and audience engagement, while individuals use it for personal inspiration. With mobile and web access, Pinterest makes it easy to discover and organize ideas anytime, anywhere.",
-        "size": 150,
-        "reviews": 12000000,
-        "ratingAvg": 4.5,
-        "downloads": 500000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 150000
-            },
-            {
-                "name": "2 star",
-                "count": 100000
-            },
-            {
-                "name": "3 star",
-                "count": 300000
-            },
-            {
-                "name": "4 star",
-                "count": 1800000
-            },
-            {
-                "name": "5 star",
-                "count": 9900000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/nmFbzzD/reddit.png",
-        "title": "Reddit",
-        "companyName": "Reddit, Inc.",
-        "id": 19,
-        "description": "Reddit is a social news aggregation, discussion, and content-sharing platform that connects millions of communities worldwide. Users can post content, comment, upvote or downvote posts, and participate in discussions across thousands of niche topics. Reddit offers features like subreddits, awards, live threads, and AMAs (Ask Me Anything) for interactive engagement. The platform encourages knowledge sharing, entertainment, and social interaction. With mobile and desktop access, customizable feeds, and real-time notifications, Reddit enables users to follow interests, stay informed, and engage with communities globally. Its diverse and dynamic environment makes it a hub for ideas, news, and creativity.",
-        "size": 200,
-        "reviews": 18000000,
-        "ratingAvg": 4.6,
-        "downloads": 1000000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 300000
-            },
-            {
-                "name": "2 star",
-                "count": 200000
-            },
-            {
-                "name": "3 star",
-                "count": 500000
-            },
-            {
-                "name": "4 star",
-                "count": 2400000
-            },
-            {
-                "name": "5 star",
-                "count": 14700000
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co/ZYFz5zH/dropbox.png",
-        "title": "Dropbox",
-        "companyName": "Dropbox, Inc.",
-        "id": 20,
-        "description": "Dropbox is a cloud storage and file synchronization service that allows users to store, share, and access files from any device. It provides secure backup, collaboration tools, and integration with productivity apps like Microsoft Office and Slack. Dropbox supports file versioning, offline access, and automatic syncing across devices. Teams can collaborate in real-time, manage permissions, and share documents effortlessly. With robust security measures, two-factor authentication, and encrypted storage, Dropbox ensures data protection. Its intuitive interface and cross-platform availability make it a reliable solution for personal and business file management, enhancing productivity and workflow efficiency.",
-        "size": 180,
-        "reviews": 12000000,
-        "ratingAvg": 4.5,
-        "downloads": 500000000,
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": 40000
-            },
-            {
-                "name": "2 star",
-                "count": 25000
-            },
-            {
-                "name": "3 star",
-                "count": 80000
-            },
-            {
-                "name": "4 star",
-                "count": 350000
-            },
-            {
-                "name": "5 star",
-                "count": 1120000
-            }
-        ]
-    }
+  {
+    "image": "https://i.ibb.co.com/JWCqfb4t/Spotify-icon-svg.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Spotify is the world’s leading audio streaming platform, offering millions of songs, podcasts, and playlists for free and premium users. It combines personalized recommendations, curated playlists, and discovery tools to help users find music and podcasts that match their moods and interests...",
+    "size": 185,
+    "reviews": "7.2M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 340000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 5680000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vChG64Db/images.jpg",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 2,
+    "description": "Canva is an intuitive graphic design platform that empowers users to create professional-quality visuals quickly and easily...",
+    "size": 150,
+    "reviews": "1.2M",
+    "ratingAvg": 4.8,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 840000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LzvJBpC7/images.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 3,
+    "description": "Notion is an all-in-one workspace that combines note-taking, project management, databases, and collaboration tools in a flexible, intuitive interface...",
+    "size": 145,
+    "reviews": "410K",
+    "ratingAvg": 4.8,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 32000 },
+      { "name": "5 star", "count": 370500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PzQk16bF/download.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 4,
+    "description": "TikTok allows users to create, share, and discover short-form videos enriched with music, filters, and special effects...",
+    "size": 240,
+    "reviews": "85M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 19000000 },
+      { "name": "5 star", "count": 54000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B5WN8HPm/download.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 5,
+    "description": "Instagram is a photo and video sharing social network that allows users to connect, communicate, and share creative content globally...",
+    "size": 220,
+    "reviews": "100M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 74000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ym8RZVFB/Calm-company-logo-svg.png",
+    "title": "Calm",
+    "companyName": "Calm Inc.",
+    "id": 6,
+    "description": "Calm is a leading meditation and mental wellness app designed to reduce stress, improve focus, and enhance sleep...",
+    "size": 120,
+    "reviews": "154K",
+    "ratingAvg": 4.7,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 3400 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 5800 },
+      { "name": "4 star", "count": 29000 },
+      { "name": "5 star", "count": 113600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8LZch6mS/85f69649-5387-44c2-ba45-81ae13812e36-cover.png",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "id": 7,
+    "description": "Figma is a collaborative interface design tool used for UI/UX design, prototyping, and real-time team collaboration...",
+    "size": 180,
+    "reviews": "210K",
+    "ratingAvg": 4.7,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 21000 },
+      { "name": "5 star", "count": 182600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pBVTxfWN/download-1.png",
+    "title": "GitHub",
+    "companyName": "GitHub, Inc.",
+    "id": 8,
+    "description": "GitHub is a web-based platform for version control and collaborative software development using Git...",
+    "size": 130,
+    "reviews": "300K",
+    "ratingAvg": 4.9,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 13000 },
+      { "name": "5 star", "count": 283300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/V0SGtG3J/download-2.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 9,
+    "description": "Netflix is a leading subscription-based streaming service that offers a vast library of movies, TV shows, documentaries, and original content...",
+    "size": 250,
+    "reviews": "45M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 30000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qF0pxPfH/download-3.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc.",
+    "id": 10,
+    "description": "WhatsApp is a globally used messaging app that allows users to send text messages, voice notes, images, videos, and documents securely...",
+    "size": 120,
+    "reviews": "90M",
+    "ratingAvg": 4.5,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 54000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nsmzvTdz/download-1.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 11,
+    "description": "Zoom is a cloud-based video conferencing platform that enables virtual meetings, webinars, and collaborative communication across the globe...",
+    "size": 200,
+    "reviews": "6M",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 4550000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9fKk5zr/download-4.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 12,
+    "description": "Slack is a team collaboration and messaging platform designed to streamline communication and productivity within organizations...",
+    "size": 180,
+    "reviews": "850K",
+    "ratingAvg": 4.6,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 675000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8n1JHr38/download-2.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 13,
+    "description": "Telegram is a cloud-based messaging app focused on speed, security, and privacy...",
+    "size": 150,
+    "reviews": "35M",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 31000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XkXtPgtL/download-5.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "YouTube is the world’s largest video-sharing platform, offering billions of videos across categories such as entertainment, education, music, and news...",
+    "size": 250,
+    "reviews": "120M",
+    "ratingAvg": 4.5,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/67n1pWSG/download-3.jpg",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Google Chrome is a fast, secure, and widely-used web browser available across devices...",
+    "size": 120,
+    "reviews": "50M",
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 41500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/S7tkB871/download-6.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "Gmail is a free email service by Google that provides users with secure, fast, and organized email communication...",
+    "size": 120,
+    "reviews": "35M",
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 28000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PZ1QS46C/download-7.png",
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "id": 17,
+    "description": "Adobe Photoshop is the industry-leading photo editing and graphic design software, used by photographers, designers, and digital artists worldwide...",
+    "size": 1050,
+    "reviews": "900K",
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 765000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LXxnm7Bp/download-8.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 18,
+    "description": "Pinterest is a visual discovery and bookmarking platform that allows users to find, save, and share ideas across categories such as fashion, home decor, recipes, travel, and more...",
+    "size": 150,
+    "reviews": "12M",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 9900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/sp1FhJdF/download-9.png",
+    "title": "Reddit",
+    "companyName": "Reddit, Inc.",
+    "id": 19,
+    "description": "Reddit is a social news aggregation, discussion, and content-sharing platform that connects millions of communities worldwide...",
+    "size": 200,
+    "reviews": "18M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 14700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pBdkY1Tn/download-10.png",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 20,
+    "description": "Dropbox is a cloud storage and file synchronization service that allows users to store, share, and access files from any device...",
+    "size": 180,
+    "reviews": "12M",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 1120000 }
+    ]
+  }
 ]
