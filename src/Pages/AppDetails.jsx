@@ -50,7 +50,7 @@ const AppDetails = () => {
     let updatedList = [];
     if (existingList) {
       const isDuplicate = existingList.some((p) => p.id === product.id);
-      if (isDuplicate) return Swal.fire("Sorry");
+      if (isDuplicate) return Swal.fire("Sorry this app is allready Installed ");
       updatedList = [...existingList, product];
     } else {
       updatedList.push(product);

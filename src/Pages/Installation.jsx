@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import like from "../assets/like_img.png";
 import download from "../assets/download.png";
 import star from "../assets/Star.png";
+import Swal from "sweetalert2";
 
 const Installation = () => {
   const [wishlist, setWishlist] = useState([]);
@@ -28,6 +29,7 @@ const Installation = () => {
     const updatedList = wishlist.filter((item) => item.id !== id);
     setWishlist(updatedList);
     localStorage.setItem("wishlist", JSON.stringify(updatedList));
+    Swal.fire("App is uninstalled!");
   };
 
   if (wishlist.length === 0) {
@@ -41,7 +43,7 @@ const Installation = () => {
       <div className=" bg-cyan-50  py-20 max-w-7xl mx-auto ">
 
          <div className="flex justify-center items-center pt-15 pb-5 text-4xl font-bold">
-          <h1>Our All Applications</h1>
+          <h1>Your Installed  Applications</h1>
         </div>
 
          <div className="flex justify-center items-center  text-[rgba(98,115,130,1)]">
@@ -59,8 +61,8 @@ const Installation = () => {
         <div className="">
           <div className="flex justify-between items-center mb-4">
             <h1 className="text-2xl font-bold">
-              {" "}
-              ({wishlist.length}) App found{" "}
+              
+              ({wishlist.length}) App found
             </h1>
             <select
               className="select select-bordered w-60"

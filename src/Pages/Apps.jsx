@@ -78,7 +78,7 @@ const [isSearching, setIsSearching] = useState(false);
           <input
             type="search"
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+           onChange={handleSearchChange}
             required
             placeholder="Search"
           />
@@ -90,7 +90,7 @@ const [isSearching, setIsSearching] = useState(false);
             <LoadingAPI />
           </div>
         ) : searchApp.length > 0 ? (
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-5">
             {searchApp.map((product) => (
               <AllApplication key={product.id} product={product} />
             ))}

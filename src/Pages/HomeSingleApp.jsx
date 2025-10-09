@@ -1,13 +1,25 @@
 import React from "react";
 import star from '../assets/Star.png'
 import download from '../assets/download.png'
+import { Navigate, useNavigate } from 'react-router';
 
-const HomeSingleApp = ({ featureProduct}) => {
+const HomeSingleApp = ({ featureProduct, }) => {
+  const navigate = useNavigate();
+    const handleCardClick = () => {
+      navigate(`/app/${id}`); 
+    };
+
+
+
+
+
+
+
 //   console.log(featureProduct);
-  const { image, downloads,  title, ratingAvg, } =
+  const { image, downloads,  title, ratingAvg,id } =
     featureProduct;
   return (
-    <div className=" w-80">
+    <div onClick={()=> handleCardClick(id)} className=" w-80">
       <div className="">
         <div className="card  bg-base-100 shadow-sm hover:scale-104 transition: ease-in-out">
           <figure className=" p-2 ">

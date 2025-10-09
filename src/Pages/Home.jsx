@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, Navigate, } from "react-router";
 import playStore from "../assets/Play_store.png";
 import appStore from "../assets/App_store.png";
 import hero from "../assets/hero.png";
@@ -10,9 +10,16 @@ import LoadingAPI from "../Component/LoadingAPI/LoadingAPI";
 const Home = () => {
 
     const {products, loading, error} = useProducts() ;
+    
     if (loading) return <LoadingAPI></LoadingAPI>;
     // console.log(products, loading, error);
     const featureProduct = products.slice(0, 8)
+
+
+
+
+
+ 
   return (
     
 
@@ -91,7 +98,7 @@ const Home = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2  my-15 max-w-7xl lg:grid-cols-4 gap-5 mx-auto ">
         {
-            featureProduct.map(featureProduct =><HomeSingleApp key={featureProduct.id} featureProduct={featureProduct} ></HomeSingleApp>)
+            featureProduct.map(featureProduct =><HomeSingleApp  key={featureProduct.id} featureProduct={featureProduct} ></HomeSingleApp>)
         }
 
         
