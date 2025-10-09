@@ -17,19 +17,19 @@ const Header = () => {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><NavLink 
          className={({ isActive }) =>
-                isActive ? "text-blue-600 underline" : ""
+                isActive ? "text-yellow-600 underline" : ""
               }
          to='/'>Home</NavLink></li>
         <li><NavLink 
 
          className={({ isActive }) =>
-                isActive ? "text-blue-600 underline" : ""
+                isActive ? "text-yellow-600 underline" : ""
               }
         
         to='/app'>App</NavLink></li>
         <li><NavLink 
          className={({ isActive }) =>
-                isActive ? "text-blue-600 underline" : ""
+                isActive ? "text-yellow-600 underline" : ""
               }
          to='/installation'>Installation</NavLink></li>
        

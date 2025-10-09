@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-neutral text-neutral-content p-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
         
-        {/* Logo & Description */}
+        
         <div className="flex flex-col items-center md:items-start">
          
             <img className="h-20" src={logo} alt="" />
@@ -20,9 +20,9 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row items-center md:space-x-10 space-y-4 md:space-y-0">
           <div className="flex space-x-4">
-            <a href="https://twitter.com/" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition">Twitter</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition">Twitter</a>
             <a href="https://github.com/" target="_blank" rel="noreferrer" className="hover:text-gray-200 transition">GitHub</a>
-            <a href="mailto:example@gmail.com" className="hover:text-red-400 transition">Gmail</a>
+            <a href="https://github.com/" className="hover:text-red-400 transition">Gmail</a>
           </div>
 
           <div className="flex space-x-4">
