@@ -8,11 +8,13 @@ const Installation = () => {
   const [wishlist, setWishlist] = useState([]);
   const [sortedWishlist, setSortedWishlist] = useState([]);
   const [sortType, setSortType] = useState("");
+  
 
   useEffect(() => {
     const savedList = JSON.parse(localStorage.getItem("wishlist")) || [];
     setWishlist(savedList);
     setSortedWishlist(savedList);
+    
   }, []);
 
   useEffect(() => {
@@ -23,6 +25,7 @@ const Installation = () => {
       sorted.sort((a, b) => a.title.localeCompare(b.title));
 
     setSortedWishlist(sorted);
+    
   }, [sortType, wishlist]);
 
   const handleRemove = (id) => {

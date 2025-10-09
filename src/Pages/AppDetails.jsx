@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router";
 import useProducts from "../Hook/useApp";
 import LoadingAPI from "../Component/LoadingAPI/LoadingAPI";
@@ -22,6 +22,12 @@ const AppDetails = () => {
   const [install, setInstall] = useState(false);
   const { id } = useParams();
   console.log(id);
+    useEffect(() => {
+    
+    const existingList = JSON.parse(localStorage.getItem("wishlist")) || [];
+    const isInstalled = existingList.some((p) => p.id == id);
+    if (isInstalled) setInstall(true);
+  }, []);
 
   const { products, loading, error } = useProducts();
   if (loading) return <LoadingAPI></LoadingAPI>;
@@ -29,6 +35,9 @@ const AppDetails = () => {
 
   const product = products.find((p) => p.id == id);
   console.log(product);
+
+
+  
 
   const {
     companyName,
@@ -44,13 +53,19 @@ const AppDetails = () => {
 
   console.log(ratings);
 
+
+
+
   const handleAddToWishlist = () => {
     const existingList = JSON.parse(localStorage.getItem("wishlist"));
     console.log(existingList);
     let updatedList = [];
     if (existingList) {
       const isDuplicate = existingList.some((p) => p.id === product.id);
-      if (isDuplicate) return Swal.fire("Sorry this app is allready Installed ");
+      if (isDuplicate) return (
+        setInstall(true),
+        Swal.fire("App is all-ready installed!")
+      )
       updatedList = [...existingList, product];
     } else {
       updatedList.push(product);
@@ -60,6 +75,9 @@ const AppDetails = () => {
     Swal.fire("App is installed!");
     setInstall(true);
   };
+
+
+
 
   return (
     <div className="bg-base-200 py-20">
@@ -107,7 +125,7 @@ const AppDetails = () => {
               disabled={install}
               className="mt-8 bg-[rgba(0,211,144,1)] hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition"
             >
-              {install ? "Installed" : ` Install Now ( ${size} MB)`}
+              {install  ? "Installed" : ` Install Now ( ${size} MB)`}
             </button>
           </div>
         </div>
