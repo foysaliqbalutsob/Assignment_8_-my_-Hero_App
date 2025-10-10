@@ -14,6 +14,8 @@ const Footer = () => {
             Hero.OI Industries Ltd.
             <br />
             Providing reliable tech since 1992
+            <br />
+            @copyright 2025 by foysal Iqbal Utsob
           </p>
         </div>
 
